@@ -1,0 +1,108 @@
+/**/*.suo
+/**/*.user
+/**/*.dbmdl
+/**/*.vs
+/**/bin
+/**/obj
+/**/log4net.*
+/**/NPOI.*
+/**/SharpZipLib.*
+/**/Spring.Core.*
+/**/RabbitMQ.Client.*
+/**/Common.Logging.*
+/**/Common.Logging.Core.*
+/**/RabbitMQ.Client.*
+/**/NPOI.*
+/**/NDesk.Options.*
+/**/Npgsql.*
+/**/Spring.Core.*
+/**/Antlr3.StringTemplate.*
+/**/DockPanelSuite.*
+/**/TaskParallelLibrary.*
+/**/Antlr.*
+/**/CaptchaMvc.Mvc*
+/**/Microsoft.ApplicationInsights.*
+/**/Microsoft.AspNet.Mvc.*
+/**/Microsoft.AspNet.Razor.*
+/**/Microsoft.AspNet.Web.Optimization.*
+/**/Microsoft.AspNet.WebPages.*
+/**/Microsoft.CSharp.*
+/**/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.*
+/**/Microsoft.Diagnostics.Tracing.EventSource.Redist.*
+/**/Microsoft.Net.Compilers.*
+/**/Microsoft.Web.Infrastructure.*
+/**/Microsoft.jQuery.Unobtrusive.Validation.*
+/**/Modernizr.*
+/**/Newtonsoft.Json.*
+/**/Respond.*
+/**/RestSharp.*
+/**/WebGrease.*
+/**/bootstrap.*
+/**/jQuery.*
+/**/jQuery.Validation.*
+/Sources/Workflow/Workflow.Web/Log
+Sources/WebAdminPortal/AdminPortal/ClientApp/package-lock.json
+Sources/WebAdminPortal/AdminPortal/ClientApp/.vscode/settings.json
+Sources/Workflow/Crystal Reports Backup Files/Web.config
+Sources/Workflow/Crystal Reports Backup Files/Workflow.Web.csproj
+Biểu mẫu, quy trình gửi Viettin.rar
+Biểu mẫu, quy trình gửi Viettin/De xuat thanh ly (thamkhao).xls
+Biểu mẫu, quy trình gửi Viettin/Hồ sơ thanh toán kèm theo.xlsx
+Biểu mẫu, quy trình gửi Viettin/HOP DONG NC PHAN MEM QL ĐÊ XUAT-KHO (HĐ cũ ko thực hiện).docx
+Biểu mẫu, quy trình gửi Viettin/Mẫu phiếu đề xuất.doc
+Biểu mẫu, quy trình gửi Viettin/QT quản lý thiết bị (tham khảo).pdf
+Biểu mẫu, quy trình gửi Viettin/Quy định xuất nhập kho (tham khảo).pdf
+Biểu mẫu, quy trình gửi Viettin/Quy trình mua sắm (bản góp ý).pdf
+Biểu mẫu, quy trình gửi Viettin/Quy trình mua sắm.pdf
+Biểu mẫu, quy trình gửi Viettin/Quy trình thanh toán - thanh toán tạm ứng.pdf
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/1. PHIEU DE XUAT (1).doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/2.BẢN GIẢI TRÌNH MUA SẮM.doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/3.PHIEU KHAO SAT, SUA CHUA (1).doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/4. Mẫu báo giá - CNTT.xlsx
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/5.MẪU BIÊN BẢN HỌP BAN KIỂM GIÁ MÁY MÓC THIẾT BỊ.doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/6. Kế hoạch chọn NCC.docx
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/6. Quyết định chọn NCC.docx
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/7. Mẫu Hợp đồng.docx
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/7. Mẫu Thương thảo HĐ.docx
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/7.Mẫu biên bản thương thảo HĐ.doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/7.Mẫu Hợp đồng.doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/8. Mẫu BB Giao nhận (sử dụng nội bộ) (thiết bị, phụ kiện đi kèm, không phải máy móc riêng lẻ).doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/8. Mẫu phiếu giao nhận (C50-TS TS áp dụng nguồn DV nhỏ hơn 30tr - nguồn CQ lớn hơn 10tr).docx
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/8. Mẫu phiếu giao nhận(C34)-TS áp dụng nguồn DV nhỏ hơn 30tr - nguồn CQ nhỏ hơn 10tr).doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/8. Phiếu nhập kho.xls
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/8. Phiếu xuất kho.xls
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/8.BIENBANNGHIEMTHUBAOTRISUACHUATHIETBITHONGDUNGCOSOHATANG (1).doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/8.Mẫu phiếu nghiệm thu.doc
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/baogia.xlsx
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/BAO CAO NITO T4-2019.xls
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/BC AN PHAM THANG 4-2019.xls
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/MUC/BC MUC CQ THANG 4-2019.xls
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/SUA/BC SUA T1.xlsx
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/SUA/NHAP T1 S-2017.xls
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/THANG 2-2019/BC NHIEN LIEU T2-2019 .xlsx
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/THANG 2-2019/NHAP T11-2019 XDN.xls
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/VLD-CQ/BC VLDIEN-CQ T4.xls
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/VLD-CQ/THEO DOI  VLDIEN-CQ T4.xls
+Biểu mẫu, quy trình gửi Viettin/MAU KHO/VPP/BC VPP-CQ MOI THANG 4-2019.xls
+Sources/WebAdminPortal/AdminPortal/20200306090241
+Sources/WebAdminPortal/AdminPortal/20200306092756
+Sources/WebAdminPortal/AdminPortal/20200306093018
+Sources/WebAdminPortal/AdminPortal/20200306093322
+Sources/WebAdminPortal/AdminPortal/20200306100637
+Sources/WebAdminPortal/AdminPortal/20200306103901
+Sources/WebAdminPortal/AdminPortal/20200306110219
+Sources/WebAdminPortal/AdminPortal/20200306110444
+Sources/WebAdminPortal/AdminPortal/20200306110751
+Sources/WebAdminPortal/AdminPortal/20200306110755
+Sources/WebAdminPortal/AdminPortal/20200306111407
+Sources/WebAdminPortal/AdminPortal/20200306111411
+Sources/WebAdminPortal/AdminPortal/20200306115157
+Sources/WebAdminPortal/AdminPortal/20200306115202
+Sources/WebAdminPortal/AdminPortal/20200306115211
+Sources/WebAdminPortal/AdminPortal/20200306115219
+Sources/WebAdminPortal/AdminPortal/20200306115226
+Sources/WebAdminPortal/AdminPortal/20200306115255
+Sources/WebAdminPortal/AdminPortal/package-lock.json
+Biểu mẫu, quy trình gửi Viettin/Các mẫu theo QTMS/~$ Mẫu Thương thảo HĐ.docx
+AdminPortal/DataLayers/Common/SqlConnectionFactory.cs
+/AdminPortal/Template/

@@ -1,0 +1,22 @@
+
+delete from tbl_Acceptance where 1 = 1
+delete from tbl_BidPlan where 1 = 1
+delete from tbl_Negotiation where 1 = 1
+delete from tbl_ProposalAutoCode where 1 = 1
+
+delete from tbl_DeliveryReceipt where 1 = 1
+delete from tbl_Proposal where 1 = 1
+delete from tbl_Proposal_Log where 1 = 1
+delete from tbl_Decision where 1 = 1
+delete from tbl_Quote_Item where 1 = 1
+delete from tbl_AuditMember where 1 = 1
+delete from tbl_Comment where 1 = 1
+delete from tbl_SelectContract where 1 = 1
+delete from tbl_Quote where 1 = 1
+delete from tbl_Contract where 1 = 1
+delete from tbl_Audit where 1 = 1
+delete from tbl_Document where 1 = 1
+delete from tbl_Explanation where 1 = 1
+delete from tbl_DeliveryReceipt_Items where 1 = 1
+delete from tbl_Survey where 1 = 1
+delete from tbl_Proposal_Item where 1 = 1

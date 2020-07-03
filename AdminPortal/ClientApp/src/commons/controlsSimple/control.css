@@ -1,0 +1,13 @@
+@media screen and (min-width: 1601px) {
+     .wrapcontrol {
+      flex-basis: 24% !important;
+      margin-top:15px;
+     }
+  }
+
+@media screen and (max-width: 1600px) {
+   .wrapcontrol {
+      flex-basis: unset;
+      margin-top:15px;
+   }
+}

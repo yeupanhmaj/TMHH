@@ -1,0 +1,19 @@
+.tabactive {
+    background-color: rgba(30, 168, 247,0.9);
+    color: white;
+    border: 2px solid rgba(30, 168, 247,1);
+    box-shadow: -5px 2px 35px -17px rgba(0,0,0,0.75);
+  
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+}
+.tabnormal{
+    background-color: white ;
+    color: rgba(30, 168, 247,0.9);
+    border: 1px solid  rgba(0,0,0,0.2);
+    box-shadow: -5px 2px 35px -17px rgba(0,0,0,0.75);
+    cursor: pointer;
+    height: 40px;
+    padding: 5px;
+}

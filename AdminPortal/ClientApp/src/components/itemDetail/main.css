@@ -1,0 +1,224 @@
+.closeIcon {
+  z-index:1051;
+  position: fixed;
+  right: 10px;
+  top: 10px; 
+  font-size: 20px;
+  background-color: rgba(230,230,230,0.8);
+  padding: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+.closeIcon:hover{
+   color: rgba(230,230,230,0.8);
+   background-color: rgba(0,0,0,0.8);
+}
+.commentHeader {
+padding-bottom: 9px;
+margin: 40px 0 20px;
+border-bottom: 1px solid #eee;
+font-size: 30px;
+}
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  max-width: 80px;
+  max-height: 110px;
+}
+.thumbnail>img, .thumbnail a>img {
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-responsive{
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+.comment-list {
+  word-wrap: break-word;
+}
+.text-center {
+  text-align: center;
+}
+.rowComment{
+  display:flex;
+  flex-direction: row;
+}
+.leftRowComment{
+  flex:1;
+  margin-right: 10px
+}
+
+.rightRowComment{
+  flex:10;
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+textarea:focus ,.comment-input:focus{
+  border: 1px solid #ddd;
+}
+
+.panel-default {
+  border-color: #ddd;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-body {
+  padding: 15px;
+}
+.text-left {
+  text-align: left;
+}
+
+.childDetailWarpper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+
+.DetailsProposal {
+  padding: 20px;
+  margin-bottom: 15px;
+  border-bottom: 0 none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
+  margin-top:20px;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 400px;;
+}
+
+.attFileIconActive , .attFileIconInActive{
+  font-size: 20px;
+  padding: 5px
+}
+.attFileIconActive {
+  background-color: rgb(214, 27, 242, 0.46);
+  color:white
+}
+.attFileIconInActive {
+   color: rgb(214, 27, 242, 0.46);
+   background-color:white
+}
+.DetailslItemHaftSize{
+  flex-basis: 50%;
+  min-width: 150px;
+  padding: 5px;
+}
+.DetailsItemFullWidth{
+  flex-basis: 100%;
+  min-width: 150px;
+  padding: 10px;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+  min-height: 120px;
+}
+.commentInputWrapper{
+  margin-bottom: 15px
+}
+.linkDownLoad{
+  padding: 0px 0px 0px 8px;
+  margin: 5px 0px 0px 0px;
+  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: roboto;
+  font-size: 12px;
+
+}
+.icon-download{
+  font-size: 16px;
+  line-height: 27px;
+  padding: 2px 5px 0px 7px;
+  color: rgb(030,200,250);
+}
+.wrapperControl{
+  display:flex;
+  flex-direction: row;
+}
+
+.CustomTabsTCK{
+  text-decoration:none;
+  border-radius:50px;
+  text-transform:uppercase;
+  padding:8px;
+  margin: 2px;
+  display:inline-block;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.CustomTabsActive{
+  color:white;
+  background-color: rgba(030,200,250 ,0.9);
+  font-size: 13px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .arrow-left:after , .arrow-left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: 0;
+  }
+    .arrow-left:after {
+        left: 1px;
+        top: 31px;
+        border-right-color: #FFFFFF;
+        border-left-color: transparent;
+        border-width: 15px;
+    
+      }
+     .arrow-left:before {
+      left: 0px;
+      top: 30px;
+      border-right-color: #ddd;
+      border-width: 16px;
+     }     
+}
+
+
+@media screen and (max-width: 768px) {
+  .comment-user {
+    display: inherit
+  }
+  .leftRowComment{
+    display:none
+  }
+  .printButton{
+    top: 93px; position: absolute; right: 10px
+  }
+}
+@media screen and (min-width: 768px) {
+  .comment-user {
+    display: none
+  }
+}
+@media print { 
+   .closeIcon, .noshowonprint { display: none !important; } 
+ }

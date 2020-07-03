@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdminPortal</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.AcceptanceDataLayer.Getlist(System.Data.SqlClient.SqlConnection,AdminPortal.Entities.AcceptanceCriteria)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.AuditDataLayer.GetAllAudit(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.BidPlanDataLayer.GetAllBidPlan(System.Data.SqlClient.SqlConnection)" -->
+        <member name="F:AdminPortal.DataLayer.DataProvider._logger">
+            <summary>
+            	Logger
+            </summary>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.ExcuteDataSet(System.Data.SqlClient.SqlConnection,System.String)">
+            <summary>
+            Hàm này dùng để thực thi câu lệnh sql kiểu dự liệu trả về là DataSet
+            </summary>
+            <param name="connection"></param>
+            <param name="strSql">Truyền vào câu lệnh SQL</param>
+            <returns>Dữ liệu trả về DataSet</returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.ExecuteQuery(System.Data.SqlClient.SqlConnection,System.String)">
+            <summary>
+            Hàm này dùng để thực thi câu lệnh sql như Insert, Update, Delete
+            </summary>
+            <param name="connection"></param>
+            <param name="strSQL">Truyền vào câu lệnh SQL</param>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.ExcuteDataReader(System.Data.SqlClient.SqlConnection,System.String)">
+            <summary>
+            Hàm này dùng để thực thi câu lệnh sql kiểu dự liệu trả về là DataReader
+            </summary>
+            <param name="connection"></param>
+            <param name="strSQL">Truyền vào câu lệnh SQL</param>
+            <returns>Dữ liệu trả về DataReader</returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.GetDataTable(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlCommand)">
+            <summary>
+            datatable goi store procedure khong truyen tham so
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.GetDataTable(System.Data.SqlClient.SqlConnection,System.String,System.Data.CommandType)">
+            <summary>
+            datatable goi store procedure khong truyen tham so
+            </summary>
+            <param name="connection"></param>
+            <param name="strQuery"></param>
+            <param name="commandType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.GetDataTable(System.Data.SqlClient.SqlConnection,System.String,System.Data.CommandType,System.String[],System.String[])">
+            <summary>
+            datatable goi store procedure co truyen tham so
+            </summary>
+            <param name="connection"></param>
+            <param name="strQuery"></param>
+            <param name="commandType"></param>
+            <param name="parameters"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.ExecuteSqlQuery(System.Data.SqlClient.SqlConnection,System.String,System.Data.CommandType,System.String[],System.String[])">
+            <summary>
+            thuc hien chay store procedure
+            </summary>
+            <param name="connection"></param>
+            <param name="strQuery"></param>
+            <param name="commandType"></param>
+            <param name="parameters"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.ExecuteSqlQuery(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlCommand)">
+            <summary>
+            thuc hien chay store procedure
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.DataProvider.ExecuteSqlQuery(System.Data.SqlClient.SqlConnection,System.String,System.Data.CommandType)">
+            <summary>
+            thuc hien chay store procedure
+            </summary>
+            <param name="connection"></param>
+            <param name="strQuery"></param>
+            <param name="commandType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.Utils.ConvertString(System.String)">
+            <summary>
+            Hàm cắt đi dấu nháy trong chuổi
+            </summary>
+            <param name="Str">Chuổi ký tự truyền vào</param>
+            <returns>Chuổi ký tự trả về</returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.Utils.ConvertBirthYear(System.String)">
+            <summary>
+            Hàm dùng để chuyển tuổi ra năm
+            </summary>
+            <param name="_age"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.Utils.ConvertStringText(System.String,System.Int32)">
+            <summary>
+            _TypeCOnvert=1 (Convert from UNI), _TypeCOnvert=2 (Convert from VNI), _TypeCOnvert=3 (Convert from ABC)
+            </summary>
+            <param name="_Source"></param>
+            <param name="_TypeConvert"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.ContractDataLayer.GetAllContract(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.CustomerDataLayer.GetAllCustomer(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.DecisionDataLayer.GetAllDecision(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.DepartmentDataLayer.GetAllDepartment(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.ExplanationDataLayer.GetAllExplanation(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.NegotiationDataLayer.GetAllNegotiation(System.Data.SqlClient.SqlConnection)" -->
+        <member name="T:AdminPortal.DataLayer.ProcessServices">
+            <summary>
+            Lớp này chứa các hàm thường dùng kho code form
+            </summary>
+        </member>
+        <member name="M:AdminPortal.DataLayer.ProcessServices.PrintReport(CrystalDecisions.CrystalReports.Engine.ReportClass,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Hàm thực hiện in report
+            </summary>
+            <param name="_report">Report cần in</param>
+            <param name="_printerName">Tên máy in</param>
+            <param name="_nCopies">Số lần in</param>
+            <param name="_startPageN">Trang đầu</param>
+            <param name="_endPageN">Trang kết thúc</param>
+        </member>
+        <member name="M:AdminPortal.DataLayer.ProcessServices.RecordError(System.String)">
+            <summary>
+            Hàm ghi ra file log báo lỗi chương trình
+            </summary>
+            <param name="msg">Câu thông báo lỗi</param>
+        </member>
+        <member name="M:AdminPortal.DataLayer.ProcessServices.GetSexToLable(System.String)">
+            <summary>
+            Hàm trả về chuỗi giới tính
+            </summary>
+            <param name="_sex">Truyền vào mã giới tính</param>
+            <returns>Trả về giới tính</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.ProposalDataLayer.GetAllProposal(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.ProposalTypeDataLayer.GetAllProposalType(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.QuoteDataLayer.GetAllQuote(System.Data.SqlClient.SqlConnection)" -->
+        <!-- Badly formed XML comment ignored for member "M:AdminPortal.DataLayer.SurveyDataLayer.GetAllSurvey(System.Data.SqlClient.SqlConnection)" -->
+        <member name="M:AdminPortal.DataLayer.UserGroupDataLayer.Getlist(System.Data.SqlClient.SqlConnection,AdminPortal.DataLayer.UserGroupCriteria)">
+            <summary>
+            Hàm lấy tất cả user trừ user admin, mdx, config
+            </summary>
+            <returns>Return DataTable</returns>
+            
+        </member>
+        <member name="M:AdminPortal.DataLayer.UserGroupDataLayer.GetUserGroup(System.Data.SqlClient.SqlConnection,System.Int32)">
+            <summary>
+            Hàm lấy tất cả user trừ user admin, mdx, config
+            </summary>
+            <returns>Return DataTable</returns>
+            
+        </member>
+        <member name="M:AdminPortal.DataLayer.UsersDataLayer.Getlist(System.Data.SqlClient.SqlConnection,AdminPortal.DataLayer.UserCriteria)">
+            <summary>
+            Hàm lấy tất cả user trừ user admin, mdx, config
+            </summary>
+            <returns>Return DataTable</returns>
+            
+        </member>
+        <member name="M:AdminPortal.DataLayer.UsersDataLayer.GetUser(System.Data.SqlClient.SqlConnection,System.String)">
+            <summary>
+            Hàm lấy tất cả user trừ user admin, mdx, config
+            </summary>
+            <returns>Return DataTable</returns>
+            
+        </member>
+        <member name="M:AdminPortal.DataLayer.UsersDataLayer.GetUserAll(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            Hàm lấy tất cả user
+            </summary>
+            <returns>Return DataTable</returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.UsersDataLayer.ChangePassword(System.Data.SqlClient.SqlConnection,System.String,System.String)">
+            <summary>
+            Hàm thay đổi mật khẩu user
+            </summary>
+            <param name="strUserID">User Name</param>
+            <param name="strNewPassword">New Password</param>
+        </member>
+        <member name="M:AdminPortal.DataLayer.UsersDataLayer.Get_UserPassword(System.Data.SqlClient.SqlConnection,System.String)">
+            <summary>
+            Hàm lấy password của user
+            </summary>
+            <param name="strUser">User name</param>
+            <returns>Return password</returns>
+        </member>
+        <member name="M:AdminPortal.DataLayer.UsersDataLayer.Get_Function(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            Hàm lấy dữ liệu các chức năng của user
+            </summary>
+            <returns>Return DataTable</returns>
+        </member>
+        <member name="F:AdminPortal.DataLayers.BaseLayerData`1._logger">
+            <summary>
+            	Logger
+            </summary>
+        </member>
+        <member name="F:AdminPortal.DataLayers.Common.SqlConnectionFactory._logger">
+            <summary>
+            	Logger
+            </summary>
+        </member>
+        <member name="F:AdminPortal.Services.BaseService`1._logger">
+            <summary>
+            	Logger
+            </summary>
+        </member>
+    </members>
+</doc>

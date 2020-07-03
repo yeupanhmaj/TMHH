@@ -1,0 +1,114 @@
+
+.nav-header{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    box-shadow: 0px 7px 9px -8px #DDD;
+    /* background-color: rgba(108,122,224,0.6);
+    box-shadow: 2px 0 3px rgba(0,0,0,.7);
+    padding: 5px 5px 5px 5px ; */
+    
+    padding-bottom: 20px;
+}
+
+.nav-content{
+  /* background-color:rgb(245,245,245); */
+  /* padding: 5px 5px 5px 5px ;
+  box-shadow: 2px 0 3px rgba(0,0,0,.7); */
+  height: 100%;
+}
+
+#slidebarCustom {
+    display: flex;
+    min-height: 100%;
+    /* background-color: rgba(252, 245, 245, 0.952); */
+    height:100%;
+    flex-direction : column;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    width: 250px;  
+  
+    border-right:   1px ridge rgb(190,190,190);
+}
+
+.slideOut {
+    -webkit-animation-name: slideOut; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: slideOut;
+    animation-duration: 1s;
+    width: 0px;  
+    margin-left: -10px;
+
+}
+
+
+.slideInLogo {
+  -webkit-animation-name: slideInLogo; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: slideInLogo;
+  animation-duration: 1s;
+  width: 70px;  
+}
+
+.slideOutLogo {
+  -webkit-animation-name: slideOutLogo; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: slideOutLogo;
+  animation-duration: 1s;
+  width: 0px;  
+  margin-left: -10px;
+}
+
+
+@-webkit-keyframes slideOutLogo {
+  from {width: 70px; margin-left: 0px;}
+  to {width: 0px; margin-left: -10px;}
+}
+
+@keyframes slideOutLogo {
+  from {width: 70px; margin-left: 0px;}
+  to {width: 0px; margin-left: -10px;}
+}
+
+@-webkit-keyframes slideInLogo {
+  from {width: 0px}
+  to {width: 70px}
+}
+
+@keyframes slideInLogo {
+  from {width: 0px}
+  to {width: 70px}
+}
+
+
+@-webkit-keyframes slideOut {
+    from {width: 250px; ; margin-left: 0px;}
+    to {width: 0px; margin-left: -10px;}
+  }
+  
+  @keyframes slideOut {
+    from {width: 250px;; margin-left: 0px;}
+    to {width: 0px;; margin-left: -10px;}
+  }
+
+  @-webkit-keyframes slideIn {
+    from {width: 0px; opacity: 0; font-size:0px}
+    to {width: 250px; opacity: 1;font-size:11px}
+  }
+  
+  @keyframes slideIn {
+    from {width: 0px;  opacity: 0 ; font-size:0px}
+    to {width: 250px;  opacity: 1 ; font-size:11px}
+  }
+ 
+
+
+ 

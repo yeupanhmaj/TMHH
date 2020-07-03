@@ -1,0 +1,58 @@
+
+.fileUploaderWrapper{
+  margin:auto;
+     width: 50%;
+     height: 90px;
+     display: flex;
+     flex-direction: row;
+     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+     padding: 3px;
+     font-size: 10px;
+     font-family: roboto
+}
+.leftSideFlieUpload{
+    flex:1;
+    padding: 20px;
+    height: 100%;
+    border-bottom: 0 none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+}
+.rightSideFlieUpload{
+  flex:3;
+  display:flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 4px;
+  color :rgba(214, 27, 242) ;
+}
+.fileDisplay{
+  flex:1;
+  padding: 10px 5px 10px 5px;
+}
+.controlUploader{
+  width: 65px;
+  height: 65px;
+  border-radius: 45px;
+  background-color:  rgb(214, 27, 242, 0.46) ;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: roboto
+}
+.fileWrapForm{
+  display: flex;
+  width: 98%;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-bottom: 1px solid rgba(204,204,204,0.6)
+}
